@@ -1,0 +1,6 @@
+C:\Users\Paulina\Desktop\books\simple_calc\simple_calc\bin\Debug\simple_calc.exe.config
+C:\Users\Paulina\Desktop\books\simple_calc\simple_calc\bin\Debug\simple_calc.exe
+C:\Users\Paulina\Desktop\books\simple_calc\simple_calc\bin\Debug\simple_calc.pdb
+C:\Users\Paulina\Desktop\books\simple_calc\simple_calc\obj\Debug\simple_calc.exe
+C:\Users\Paulina\Desktop\books\simple_calc\simple_calc\obj\Debug\simple_calc.pdb
+C:\Users\Paulina\Desktop\books\simple_calc\simple_calc\obj\Debug\simple_calc.csprojResolveAssemblyReference.cache

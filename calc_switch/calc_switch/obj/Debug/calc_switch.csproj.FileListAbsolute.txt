@@ -1,0 +1,5 @@
+C:\Users\Paulina\Desktop\books\calc_switch\calc_switch\bin\Debug\calc_switch.exe.config
+C:\Users\Paulina\Desktop\books\calc_switch\calc_switch\bin\Debug\calc_switch.exe
+C:\Users\Paulina\Desktop\books\calc_switch\calc_switch\bin\Debug\calc_switch.pdb
+C:\Users\Paulina\Desktop\books\calc_switch\calc_switch\obj\Debug\calc_switch.exe
+C:\Users\Paulina\Desktop\books\calc_switch\calc_switch\obj\Debug\calc_switch.pdb

@@ -1,0 +1,6 @@
+C:\Users\Paulina\Desktop\books\calc_func\calc_func\bin\Debug\calc_func.exe.config
+C:\Users\Paulina\Desktop\books\calc_func\calc_func\bin\Debug\calc_func.exe
+C:\Users\Paulina\Desktop\books\calc_func\calc_func\bin\Debug\calc_func.pdb
+C:\Users\Paulina\Desktop\books\calc_func\calc_func\obj\Debug\calc_func.csprojResolveAssemblyReference.cache
+C:\Users\Paulina\Desktop\books\calc_func\calc_func\obj\Debug\calc_func.exe
+C:\Users\Paulina\Desktop\books\calc_func\calc_func\obj\Debug\calc_func.pdb
