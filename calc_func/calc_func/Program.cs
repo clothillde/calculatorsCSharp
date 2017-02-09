@@ -43,7 +43,7 @@ namespace calc_func
         
         public static void DoTheMath(int choice, double numOne, double numTwo)
         {
-            double result;
+            Result result;
             string method;
 
             switch (choice)
@@ -71,16 +71,10 @@ namespace calc_func
                     }
                 case 4:
                     {
-                        if (numTwo == 0)
-                        {
-                            Console.WriteLine("You cannot divide by 0!!!");
-                        }
-                        else
-                        {
-                            result = DivideClass.Divide(numOne, numTwo);
-                            method = "dividing";
-                            WriteResult(method, numOne, numTwo, result);
-                        }
+                        
+                        result = DivideClass.Divide(numOne, numTwo);
+                        method = "dividing";
+                        WriteResult(method, numOne, numTwo, result);
                         break;
                     }
                 default:
@@ -92,9 +86,18 @@ namespace calc_func
             }
         }
 
-        public static void WriteResult(string mMethod, double mNum1, double mNum2, double mResult)
+        public static void WriteResult(string method, double mNum1, double mNum2, Result mResult)
         {
-            Console.WriteLine("The result of {0} {1} and {2} is {3}", mMethod, mNum1, mNum2, mResult);
+
+            if (mResult.IsSuccess)
+            {
+                Console.WriteLine("The result of {0} {1} and {2} is {3}", method, mNum1, mNum2, mResult);
+            }
+            else
+            {
+                Console.WriteLine("The result of {0} ended up with a failure: {1}", method, mResult);
+            }
+            
         }
     }
 }

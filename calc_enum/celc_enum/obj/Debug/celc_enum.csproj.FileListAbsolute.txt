@@ -1,6 +1,0 @@
-C:\Users\Paulina\Desktop\books\celc_enum\celc_enum\bin\Debug\celc_enum.exe.config
-C:\Users\Paulina\Desktop\books\celc_enum\celc_enum\bin\Debug\celc_enum.exe
-C:\Users\Paulina\Desktop\books\celc_enum\celc_enum\bin\Debug\celc_enum.pdb
-C:\Users\Paulina\Desktop\books\celc_enum\celc_enum\obj\Debug\celc_enum.exe
-C:\Users\Paulina\Desktop\books\celc_enum\celc_enum\obj\Debug\celc_enum.pdb
-C:\Users\Paulina\Desktop\books\celc_enum\celc_enum\obj\Debug\celc_enum.csprojResolveAssemblyReference.cache

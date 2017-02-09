@@ -1,0 +1,17 @@
+**\Debug\**
+calc_switch/.vs/*
+calc_methods/.vs/*
+*/obj/Debug/*
+calc_methods/simple_calc/obj/*
+calc_if/calc/obj/Debug/calc.csprojResolveAssemblyReference.cache
+calc_if/calc/obj/*
+calc_if/.vs/*
+calc_func/calc_func/obj/Debug/calc_func.pdb
+calc_enum/celc_enum/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+calc_enum/celc_enum/obj/*
+*.exe
+*.pdb
+*.suo
+*.cache
+calc_func/calc_func/obj/Debug/calc_func.csproj.FileListAbsolute.txt
+*.txt
