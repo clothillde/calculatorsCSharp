@@ -17,7 +17,7 @@ namespace calculator
                 chosenMethod = CheckIfProperInput.CheckIfItIsNumber();
             }
             while (chosenMethod == 0);
-
+            
             while (chosenMethod < 0 || chosenMethod > 4)
             {
                 Console.WriteLine(" ");
@@ -43,30 +43,30 @@ namespace calculator
             {
                 case 1:
                 {
-                        AddClass dzialanie = new AddClass();
-                        var wynik = dzialanie.DoTheAction(numOne, numTwo);
-                        Console.WriteLine("The result of {0} between: {1} and {2} is {3}", dzialanie.NameOfTheAction, numOne, numTwo, wynik);
+                        AddClass action = new AddClass();
+                        var result = action.DoTheAction(numOne, numTwo);
+                        ShowTheResult(action.NameOfTheAction, numOne, numTwo, result);
                         break;
                     }
                 case 2:
                 {
-                        SubtractClass dzialanie = new SubtractClass();
-                        var wynik = dzialanie.DoTheAction(numOne, numTwo);
-                        Console.WriteLine("The result of {0} between: {1} and {2} is {3}", dzialanie.NameOfTheAction, numOne, numTwo, wynik);
+                        SubtractClass action = new SubtractClass();
+                        var result = action.DoTheAction(numOne, numTwo);
+                        ShowTheResult(action.NameOfTheAction, numOne, numTwo, result);
                         break;
                     }
                 case 3:
                 {
-                        MultiplyClass dzialanie = new MultiplyClass();
-                        var wynik = dzialanie.DoTheAction(numOne, numTwo);
-                        Console.WriteLine("The result of {0} between: {1} and {2} is {3}", dzialanie.NameOfTheAction, numOne, numTwo, wynik);
+                        MultiplyClass action = new MultiplyClass();
+                        var result = action.DoTheAction(numOne, numTwo);
+                        ShowTheResult(action.NameOfTheAction, numOne, numTwo, result);
                         break;
                     }
                 case 4:
                     {
-                        DivideClass dzialanie = new DivideClass();
-                        var wynik = dzialanie.DoTheAction(numOne, numTwo);
-                        Console.WriteLine("The result of {0} between: {1} and {2} is {3}", dzialanie.NameOfTheAction, numOne, numTwo, wynik);
+                        DivideClass action = new DivideClass();
+                        var result = action.DoTheAction(numOne, numTwo);
+                        ShowTheResult(action.NameOfTheAction, numOne, numTwo, result);
                         break;
                     }
                 default:
@@ -77,5 +77,16 @@ namespace calculator
             }
         }
 
+        public static void ShowTheResult(string name, double num1, double num2, double result)
+        {
+            if (num2 == 0)
+            {
+                Console.WriteLine("Failure");
+            }
+            else
+            {
+                Console.WriteLine("The result of {0} between: {1} and {2} is {3}", name, num1, num2, result);
+            }   
+        }
     }
 }

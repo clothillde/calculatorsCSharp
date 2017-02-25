@@ -41,40 +41,42 @@ namespace calculator
 
         public static void DoTheMath(int choice, double numOne, double numTwo)
         {
-            List<IAction> allActions = new List<IAction>();
-            allActions.Add(new AddClass());
-            allActions.Add(new SubtractClass());
-            allActions.Add(new MultiplyClass());
-            allActions.Add(new DivideClass());
+            var allActions = new List<IAction>
+            {
+                new AddClass(),
+                new SubtractClass(),
+                new MultiplyClass(),
+                new DivideClass()
+            };
 
             switch (choice)
             {
                 case 1:
                 {
                         var action = allActions.Single(d => d.NameOfTheAction == "adding");
-                        var wynik = action.DoTheAction(numOne, numTwo);
-                        Console.WriteLine("The result of {0} between: {1} and {2} is {3}", action.NameOfTheAction, numOne, numTwo, wynik);
+                        var result = action.DoTheAction(numOne, numTwo);
+                        Console.WriteLine("The result of {0} between: {1} and {2} is {3}", action.NameOfTheAction, numOne, numTwo, result);
                         break;
                     }
                 case 2:
                 {
                         var action = allActions.Single(d => d.NameOfTheAction == "subtracting");
-                        var wynik = action.DoTheAction(numOne, numTwo);
-                        Console.WriteLine("The result of {0} between: {1} and {2} is {3}", action.NameOfTheAction, numOne, numTwo, wynik);
+                        var result = action.DoTheAction(numOne, numTwo);
+                        Console.WriteLine("The result of {0} between: {1} and {2} is {3}", action.NameOfTheAction, numOne, numTwo, result);
                         break;
                     }
                 case 3:
                 {
                         var action = allActions.Single(d => d.NameOfTheAction == "multiplying");
-                        var wynik = action.DoTheAction(numOne, numTwo);
-                        Console.WriteLine("The result of {0} between: {1} and {2} is {3}", action.NameOfTheAction, numOne, numTwo, wynik);
+                        var result = action.DoTheAction(numOne, numTwo);
+                        Console.WriteLine("The result of {0} between: {1} and {2} is {3}", action.NameOfTheAction, numOne, numTwo, result);
                         break;
                     }
                 case 4:
                     {
                         var action = allActions.Single(d => d.NameOfTheAction == "dividing");
-                        var wynik = action.DoTheAction(numOne, numTwo);
-                        Console.WriteLine("The result of {0} between: {1} and {2} is {3}", action.NameOfTheAction, numOne, numTwo, wynik);
+                        var result = action.DoTheAction(numOne, numTwo);
+                        Console.WriteLine("The result of {0} between: {1} and {2} is {3}", action.NameOfTheAction, numOne, numTwo, result);
                         break;
                     }
                 default:
