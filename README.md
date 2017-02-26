@@ -8,3 +8,5 @@ Improving the calculator all the time while learning new things and adding new f
 5. enum
 6. interface
 7. list collection
+8. delegates
+9. dictionary
